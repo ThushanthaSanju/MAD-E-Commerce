@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">E-Commerce-MAD</string>
+    <string name="app_name">KINGSHIP</string>
+    <string name="brand">KINGSHIP</string>
+    <string name="adminname">Enter Name</string>
 </resources>
