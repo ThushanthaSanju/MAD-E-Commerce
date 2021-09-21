@@ -6,22 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class userLogview extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-
+        setContentView(R.layout.activity_user_logview);
     }
 
-    public void goToAnActivity(View view) {
-        Intent i = new Intent(MainActivity.this, AdminLogin.class);
+    public void goToCusSignUp(View view) {
+        Intent i = new Intent(userLogview.this, cusSignup.class);
         startActivity(i);
     }
-    public void goToUserLogView(View view) {
-        Intent i = new Intent(MainActivity.this, userLogview.class);
+    public void goToCusSignIn(View view) {
+        Intent i = new Intent(userLogview.this, cusSignin.class);
         startActivity(i);
     }
 }
