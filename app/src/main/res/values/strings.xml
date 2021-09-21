@@ -15,6 +15,10 @@
     <string name="login_failed">"Login failed"</string>
     <string name="AdminLogin">Login</string>
     <string name="AdminSign">Sign Up</string>
-
-
+    <string name="adminname">Enter Name</string>
+    <string name="admin">Enter Name</string>
+    <string name="sanju">Enter Name</string>
+    <string name="Hasindu">Enter Name</string>
+    <string name="NisalTharushi">Enter Name</string>
+    <string name="SanjuNipuni">Enter Name</string>
 </resources>
