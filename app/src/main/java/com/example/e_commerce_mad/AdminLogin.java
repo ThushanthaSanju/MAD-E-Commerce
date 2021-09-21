@@ -19,7 +19,7 @@ public class AdminLogin extends AppCompatActivity {
         startActivity(i);
     }
     public void AdminSignup(View view) {
-        Intent i = new Intent(AdminLogin.this, AdminLoginform.class);
+        Intent i = new Intent(AdminLogin.this, AdminSignup.class);
         startActivity(i);
     }
 }
