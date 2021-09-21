@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, userLogview.class);
         startActivity(i);
     }
+
+    public void goToSellerlogView(View view) {
+        Intent i = new Intent(MainActivity.this, sellerloginForm.class);
+        startActivity(i);
+    }
 }

@@ -10,12 +10,11 @@
         <entry key="..\:/AndroidStudio/MAD-E-Commerce/app/src/main/res/layout/activity_admin_signup.xml" value="0.2359375" />
         <entry key="..\:/AndroidStudio/MAD-E-Commerce/app/src/main/res/layout/activity_login_admin.xml" value="0.25" />
         <entry key="..\:/AndroidStudio/MAD-E-Commerce/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Program Files/MAD-E-Commerce/app/src/main/res/layout/activity_admin_signup.xml" value="0.28940217391304346" />
-        <entry key="..\:/Program Files/MAD-E-Commerce/app/src/main/res/layout/activity_cus_profile.xml" value="0.35260416666666666" />
-        <entry key="..\:/Program Files/MAD-E-Commerce/app/src/main/res/layout/activity_cus_signin.xml" value="0.35260416666666666" />
-        <entry key="..\:/Program Files/MAD-E-Commerce/app/src/main/res/layout/activity_cus_signup.xml" value="0.2957427536231884" />
-        <entry key="..\:/Program Files/MAD-E-Commerce/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Program Files/MAD-E-Commerce/app/src/main/res/layout/activity_user_logview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nisal/Desktop/MAD-E-Commerce/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/nisal/Desktop/MAD-E-Commerce/app/src/main/res/layout/activity_sellerlogin.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/nisal/Desktop/MAD-E-Commerce/app/src/main/res/layout/activity_sellerlogin_form.xml" value="0.2" />
+        <entry key="..\:/Users/nisal/Desktop/MAD-E-Commerce/app/src/main/res/layout/activity_sellersignin_form.xml" value="0.264" />
+        <entry key="..\:/Users/nisal/Desktop/MAD-E-Commerce/app/src/main/res/layout/activity_sellersignup_form.xml" value="0.264" />
       </map>
     </option>
   </component>

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerceMAD">
         <activity
+            android:name=".sellersigninForm"
+            android:exported="true" />
+        <activity
+            android:name=".sellersignupForm"
+            android:exported="true" />
+        <activity
+            android:name=".sellerloginForm"
+            android:exported="true" />
+        <activity
             android:name=".cusProfile"
             android:exported="true" />
         <activity

@@ -56,6 +56,24 @@
     <string name="te_pPwd" />
     <string name="btn_pUpdate">Update</string>
     <string name="btn_pDelete">Delete</string>
+    <string name="id_sellerloginpage">Seller Login</string>
+    <string name="id_sellersignuppage">Seller Sign Up</string>
+    <string name="id_sellerusername">Seller Username</string>
+    <string name="id_selleremail">E-mail</string>
+    <string name="id_passwordone">Enter Password</string>
+    <string name="id_passwordtwo">Enter Password again</string>
+    <string name="id_contactnum">Contact Number</string>
+    <string name="id_sellerusernameent" />
+    <string name="id_selleremailent" />
+    <string name="id_sellerpasswordoneent" />
+    <string name="id_sellerpasswordtwoent" />
+    <string name="id_sellercontactnument" />
+    <string name="id_sellerinfosubmit">Submit</string>
+    <string name="id_sellerusernamesub">Seller Username</string>
+    <string name="id_sellerpasswordsub">Password</string>
+    <string name="id_sellerusernameenter" />
+    <string name="id_sellerpasswordenter" />
+    <string name="id_sellersigninenter">Sign In</string>
 
 
 </resources>
