@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerceMAD">
         <activity
+            android:name=".cusProfile"
+            android:exported="true" />
+        <activity
+            android:name=".cusSignin"
+            android:exported="true" />
+        <activity
+            android:name=".userLogview"
+            android:exported="true" />
+        <activity
+            android:name=".cusSignup"
+            android:exported="true" />
+        <activity
             android:name=".AdminSignup"
             android:exported="true" />
         <activity
