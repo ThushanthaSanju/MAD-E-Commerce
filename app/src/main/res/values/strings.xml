@@ -15,10 +15,21 @@
     <string name="login_failed">"Login failed"</string>
     <string name="AdminLogin">Login</string>
     <string name="AdminSign">Sign Up</string>
-    <string name="adminname">Enter Name</string>
-    <string name="admin">Enter Name</string>
-    <string name="sanju">Enter Name</string>
-    <string name="Hasindu">Enter Name</string>
-    <string name="NisalTharushi">Enter Name</string>
-    <string name="SanjuNipuni">Enter Name</string>
+    <string name="AdminNameText">Enter Admin Username</string>
+    <string name="AdminUserName" />
+    <string name="adminPasswordText">Enter Password</string>
+    <string name="AdminLoginButton">Admin Login</string>
+    <string name="AdminPass" />
+    <string name="AdminName1">Enter Admin Name</string>
+    <string name="adminEmail">Enter E-mail</string>
+    <string name="EnterAdminName" />
+    <string name="EnteradminEmail" />
+    <string name="adminPasswo" />
+    <string name="adminPasswor">Enter Password</string>
+    <string name="ConfirmPass">Confirm Password</string>
+    <string name="ConfiradminPasswo" />
+    <string name="AdminPhone">Contact Number</string>
+    <string name="AdminSignUp">Signup</string>
+
+
 </resources>
