@@ -2,6 +2,7 @@ package com.example.e_commerce_mad;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -45,6 +46,10 @@ public class AdminSignup extends AppCompatActivity {
 
                 if (inserted > 0) {
                     Toast.makeText(this, "Admin Data inserted Successfully", Toast.LENGTH_SHORT).show();
+
+                    Intent i = new Intent(AdminSignup.this, AdminLoginform.class);
+                    startActivity(i);
+
                 } else {
                     Toast.makeText(this, "something went wrong", Toast.LENGTH_SHORT).show();
 
