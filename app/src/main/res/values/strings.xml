@@ -79,6 +79,8 @@
     <string name="admEmail">Administrator Email</string>
     <string name="AdminUSERNAME" />
     <string name="adminEMAIL" />
+    <string name="DeleteAdmin">DELETE</string>
+    <string name="UpdateAdmin">UPDATE</string>
 
 
 </resources>

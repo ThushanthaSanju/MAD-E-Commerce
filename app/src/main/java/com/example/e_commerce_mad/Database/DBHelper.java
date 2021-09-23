@@ -5,8 +5,11 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.view.View;
 
 import androidx.annotation.Nullable;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,6 +90,39 @@ public class DBHelper extends SQLiteOpenHelper {
         cursor.close();
 
         return info;
+    }
+
+    public void deleteinfo(String username){
+        SQLiteDatabase db = getReadableDatabase();
+        String selection = AdminMaster.Admin.COLUMN_NAME_USERNAME + " LIKE ?";
+        String[] stringArgs = {username};
+
+        db.delete(AdminMaster.Admin.TABLE_NAME, selection, stringArgs);
+    }
+
+    public void updateInfo(View view, String userName, String password){
+        SQLiteDatabase db = getWritableDatabase();
+
+        ContentValues values = new ContentValues();
+
+        values.put(AdminMaster.Admin.COLUMN_NAME_EMAIL, password);
+
+        String selection = AdminMaster.Admin.COLUMN_NAME_USERNAME + " Like ?";
+        String[] selectionArgs = {userName};
+
+        int count = db.update(
+                AdminMaster.Admin.TABLE_NAME,
+                values,
+                selection,
+                selectionArgs
+        );
+
+        Snackbar snackbar = Snackbar.make(view, count + " rows effected",Snackbar.LENGTH_LONG);
+        snackbar.setAnimationMode(Snackbar.ANIMATION_MODE_SLIDE);
+        snackbar.show();
+
+
+
     }
 
     @Override
