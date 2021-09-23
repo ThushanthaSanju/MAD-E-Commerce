@@ -2,6 +2,7 @@ package com.example.e_commerce_mad.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -40,6 +41,15 @@ public class DBHelper extends SQLiteOpenHelper {
         values.put(AdminMaster.Admin.COLUMN_NAME_CONTACT, contact);
 
         return db.insert(AdminMaster.Admin.TABLE_NAME,null,values);
+    }
+
+    public boolean CheckUserPass(String username,String Password){
+        SQLiteDatabase DB = getWritableDatabase();
+        Cursor cursor = DB.rawQuery("select * from Admins where adminusername = ? and adminpassword = ?", new String[] {username,Password});
+        if (cursor.getCount()>0){
+            return true;
+        }else
+            return false;
     }
 
     @Override
