@@ -8,6 +8,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class DBHelper extends SQLiteOpenHelper {
 
@@ -50,6 +53,40 @@ public class DBHelper extends SQLiteOpenHelper {
             return true;
         }else
             return false;
+    }
+
+    public List readAll(){
+        SQLiteDatabase db = getReadableDatabase();
+
+        String [] projection = {
+                AdminMaster.Admin._ID,
+                AdminMaster.Admin.COLUMN_NAME_USERNAME,
+                AdminMaster.Admin.COLUMN_NAME_EMAIL
+        };
+
+        String sortOrder = AdminMaster.Admin.COLUMN_NAME_USERNAME + " DESC";
+
+        Cursor cursor = db.query(
+                AdminMaster.Admin.TABLE_NAME,
+                projection,
+                null,
+                null,
+                null,
+                null,
+                sortOrder
+        );
+
+        List info = new ArrayList<>();
+
+        while (cursor.moveToNext()){
+            String userName = cursor.getString(cursor.getColumnIndexOrThrow(AdminMaster.Admin.COLUMN_NAME_USERNAME));
+            String email = cursor.getString(cursor.getColumnIndexOrThrow(AdminMaster.Admin.COLUMN_NAME_EMAIL));
+
+            info.add(userName+": "+email);
+        }
+        cursor.close();
+
+        return info;
     }
 
     @Override
