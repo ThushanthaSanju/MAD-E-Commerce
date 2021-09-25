@@ -13,3 +13,4 @@ public class AdminMaster {
         public static final String COLUMN_NAME_CONTACT = "admincontact";
     }
 }
+
