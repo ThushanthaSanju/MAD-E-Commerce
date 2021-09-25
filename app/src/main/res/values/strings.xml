@@ -81,6 +81,20 @@
     <string name="adminEMAIL" />
     <string name="DeleteAdmin">DELETE</string>
     <string name="UpdateAdmin">UPDATE</string>
+
+    <string name="id_sellerviewbtn">All Sellers</string>
+    <string name="id_selleruser">Seller Username</string>
+    <string name="id_sellerUser" />
+    <string name="id_sellerem">Seller Email</string>
+    <string name="id_sellerEmail">Seller Email</string>
+    <string name="id_sellupdate">Update</string>
+    <string name="id_selldelete">Delete</string>
+    <string name="id_selpass">Password</string>
+    <string name="id_sellpassview" />
+    <string name="id_sellcont">Contact</string>
+    <string name="id_sellcontview" />
+
+
     <string name="DeleteAdmin">DELETE</string>
     <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
     <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
