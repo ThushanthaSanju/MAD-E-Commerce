@@ -46,7 +46,7 @@ public class AdminDetails extends AppCompatActivity {
              Toast.makeText(AdminDetails.this, "Select a Admin", Toast.LENGTH_SHORT).show();
          }else{
              db.deleteinfo(userName);
-             Toast.makeText(AdminDetails.this, userName+"Deleted a Admin", Toast.LENGTH_SHORT).show();
+             Toast.makeText(AdminDetails.this, userName+" Deleted a Admin", Toast.LENGTH_SHORT).show();
 
          }
 
