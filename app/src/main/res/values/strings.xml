@@ -81,6 +81,9 @@
     <string name="adminEMAIL" />
     <string name="DeleteAdmin">DELETE</string>
     <string name="UpdateAdmin">UPDATE</string>
-
+    <string name="DeleteAdmin">DELETE</string>
+    <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
+    <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
+    <string name="UpdateAdmin">UPDATE</string>
 
 </resources>
