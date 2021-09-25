@@ -81,6 +81,7 @@
     <string name="adminEMAIL" />
     <string name="DeleteAdmin">DELETE</string>
     <string name="UpdateAdmin">UPDATE</string>
+
     <string name="id_sellerviewbtn">All Sellers</string>
     <string name="id_selleruser">Seller Username</string>
     <string name="id_sellerUser" />
@@ -93,5 +94,10 @@
     <string name="id_sellcont">Contact</string>
     <string name="id_sellcontview" />
 
+
+    <string name="DeleteAdmin">DELETE</string>
+    <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
+    <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
+    <string name="UpdateAdmin">UPDATE</string>
 
 </resources>
