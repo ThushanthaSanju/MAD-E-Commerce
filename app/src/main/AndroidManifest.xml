@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerceMAD">
         <activity
+            android:name=".seller"
+            android:exported="true" />
+        <activity
             android:name=".AdminDetails"
             android:exported="true" />
         <activity
