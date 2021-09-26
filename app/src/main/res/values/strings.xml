@@ -94,10 +94,18 @@
     <string name="id_sellcont">Contact</string>
     <string name="id_sellcontview" />
 
+    <string name="id_sellervigewbtn">All Sellers</string>
+    <string name="id_sellferuser">Seller Username</string>
+    <string name="id_sellferUser" />
+    <string name="id_sellderem">Seller Email</string>
+    <string name="id_sellderEmail">Seller Email</string>
+    <string name="id_sellfupdate">Update</string>
+    <string name="id_seldfldelete">Delete</string>
+    <string name="id_selpfass">Password</string>
+    <string name="id_sellpgassview" />
+    <string name="id_sellgcont">Contact</string>
+    <string name="id_sellcgontview" />
 
-    <string name="DeleteAdmin">DELETE</string>
-    <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
-    <string name="UpdateAdmin">UPDATE</string>    <string name="DeleteAdmin">DELETE</string>
-    <string name="UpdateAdmin">UPDATE</string>
+ 
 
 </resources>
