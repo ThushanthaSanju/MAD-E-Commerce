@@ -1770,6 +1770,8 @@
     <string name="AdminSignUp">Signup</string>
     <string name="tv_Sign">SignUp</string>
     <string name="tv_uname">Username</string>
+        <string name="tv_uname">Username</string>
+
 
  
 
