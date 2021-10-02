@@ -16,17 +16,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void goToAnActivity(View view) {
-        Intent i = new Intent(MainActivity.this, AdminLogin.class);
-        startActivity(i);
-    }
-    public void goToUserLogView(View view) {
-        Intent i = new Intent(MainActivity.this, userLogview.class);
-        startActivity(i);
-    }
-
-    public void goToSellerlogView(View view) {
-        Intent i = new Intent(MainActivity.this, sellerloginForm.class);
-        startActivity(i);
-    }
 }

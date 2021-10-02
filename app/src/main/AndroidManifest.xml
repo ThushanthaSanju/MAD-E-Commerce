@@ -10,48 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerceMAD">
         <activity
-            android:name=".SellerDetails"
-            android:exported="true" />
-        <activity
-            android:name=".SellerHome"
-            android:exported="true" />
-        <activity
-            android:name=".AdminDetails"
-            android:exported="true" />
-        <activity
-            android:name=".AdminHome"
-            android:exported="true" />
-        <activity
-            android:name=".sellersigninForm"
-            android:exported="true" />
-        <activity
-            android:name=".sellersignupForm"
-            android:exported="true" />
-        <activity
-            android:name=".sellerloginForm"
-            android:exported="true" />
-        <activity
-            android:name=".cusProfile"
-            android:exported="true" />
-        <activity
-            android:name=".cusSignin"
-            android:exported="true" />
-        <activity
-            android:name=".userLogview"
-            android:exported="true" />
-        <activity
-            android:name=".cusSignup"
-            android:exported="true" />
-        <activity
-            android:name=".AdminSignup"
-            android:exported="true" />
-        <activity
-            android:name=".AdminLoginform"
-            android:exported="true" />
-        <activity
-            android:name=".AdminLogin"
-            android:exported="true" />
-        <activity
             android:name=".ui.login.LoginActivityAdmin"
             android:exported="true"
             android:label="@string/title_activity_login_admin" />
