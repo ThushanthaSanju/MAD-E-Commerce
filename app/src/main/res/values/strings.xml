@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">KINGSHIP</string>
     <string name="brand">KINGSHIP</string>
+    <string name="brand1">KINGSHIP</string>
 
     <string name="admin">Admin</string>
     <string name="seller">Seller</string>
